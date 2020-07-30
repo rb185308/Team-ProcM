@@ -1,0 +1,10 @@
+The script requires a config file that mentions all the processes that
+needs to be monitored .
+Also, mention the start and status commands.
+Format of config_file.ini :
+[vagrant]
+name = <Name of the Process>
+start_cmd = <start Command>
+status_cmd = <stop command>
+log_file  = <Log file location>
+cwd =  <If process is not a service then give the path where start script is located>
